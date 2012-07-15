@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95EFBB8215B25BA30071CD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFBB8115B25BA30071CD00 /* UIKit.framework */; };
+		95EFBB8415B25BA30071CD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFBB8315B25BA30071CD00 /* Foundation.framework */; };
+		95EFBB8615B25BA30071CD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFBB8515B25BA30071CD00 /* CoreGraphics.framework */; };
+		95EFBB8C15B25BA30071CD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95EFBB8A15B25BA30071CD00 /* InfoPlist.strings */; };
+		95EFBB8E15B25BA30071CD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFBB8D15B25BA30071CD00 /* main.m */; };
+		95EFBB9215B25BA30071CD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFBB9115B25BA30071CD00 /* AppDelegate.m */; };
+		95EFBB9515B25BA30071CD00 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EFBB9315B25BA30071CD00 /* MainStoryboard.storyboard */; };
+		95EFBB9815B25BA30071CD00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFBB9715B25BA30071CD00 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95EFBB7D15B25BA30071CD00 /* MovieLooperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLooperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EFBB8115B25BA30071CD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95EFBB8315B25BA30071CD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95EFBB8515B25BA30071CD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95EFBB8915B25BA30071CD00 /* MovieLooperDemo-Info.plist */ = {isa = PBXFileReference; path = "MovieLooperDemo-Info.plist"; sourceTree = "<group>"; };
+		95EFBB8B15B25BA30071CD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95EFBB8D15B25BA30071CD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95EFBB8F15B25BA30071CD00 /* MovieLooperDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MovieLooperDemo-Prefix.pch"; sourceTree = "<group>"; };
+		95EFBB9015B25BA30071CD00 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		95EFBB9115B25BA30071CD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95EFBB9415B25BA30071CD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		95EFBB9615B25BA30071CD00 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		95EFBB9715B25BA30071CD00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95EFBB7A15B25BA20071CD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFBB8215B25BA30071CD00 /* UIKit.framework in Frameworks */,
+				95EFBB8415B25BA30071CD00 /* Foundation.framework in Frameworks */,
+				95EFBB8615B25BA30071CD00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95EFBB7215B25BA20071CD00 = {
+			isa = PBXGroup;
+			children = (
+				95EFBB8715B25BA30071CD00 /* MovieLooperDemo */,
+				95EFBB8015B25BA30071CD00 /* Frameworks */,
+				95EFBB7E15B25BA30071CD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EFBB7E15B25BA30071CD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95EFBB7D15B25BA30071CD00 /* MovieLooperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95EFBB8015B25BA30071CD00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95EFBB8115B25BA30071CD00 /* UIKit.framework */,
+				95EFBB8315B25BA30071CD00 /* Foundation.framework */,
+				95EFBB8515B25BA30071CD00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95EFBB8715B25BA30071CD00 /* MovieLooperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95EFBB9015B25BA30071CD00 /* AppDelegate.h */,
+				95EFBB9115B25BA30071CD00 /* AppDelegate.m */,
+				95EFBB9315B25BA30071CD00 /* MainStoryboard.storyboard */,
+				95EFBB9615B25BA30071CD00 /* ViewController.h */,
+				95EFBB9715B25BA30071CD00 /* ViewController.m */,
+				95EFBB8815B25BA30071CD00 /* Supporting Files */,
+			);
+			path = MovieLooperDemo;
+			sourceTree = "<group>";
+		};
+		95EFBB8815B25BA30071CD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95EFBB8915B25BA30071CD00 /* MovieLooperDemo-Info.plist */,
+				95EFBB8A15B25BA30071CD00 /* InfoPlist.strings */,
+				95EFBB8D15B25BA30071CD00 /* main.m */,
+				95EFBB8F15B25BA30071CD00 /* MovieLooperDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95EFBB7C15B25BA20071CD00 /* MovieLooperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EFBB9B15B25BA30071CD00 /* Build configuration list for PBXNativeTarget "MovieLooperDemo" */;
+			buildPhases = (
+				95EFBB7915B25BA20071CD00 /* Sources */,
+				95EFBB7A15B25BA20071CD00 /* Frameworks */,
+				95EFBB7B15B25BA20071CD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieLooperDemo;
+			productName = MovieLooperDemo;
+			productReference = 95EFBB7D15B25BA30071CD00 /* MovieLooperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95EFBB7415B25BA20071CD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "mohawk.riceball@gmail.com";
+			};
+			buildConfigurationList = 95EFBB7715B25BA20071CD00 /* Build configuration list for PBXProject "MovieLooperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95EFBB7215B25BA20071CD00;
+			productRefGroup = 95EFBB7E15B25BA30071CD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95EFBB7C15B25BA20071CD00 /* MovieLooperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95EFBB7B15B25BA20071CD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFBB8C15B25BA30071CD00 /* InfoPlist.strings in Resources */,
+				95EFBB9515B25BA30071CD00 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95EFBB7915B25BA20071CD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFBB8E15B25BA30071CD00 /* main.m in Sources */,
+				95EFBB9215B25BA30071CD00 /* AppDelegate.m in Sources */,
+				95EFBB9815B25BA30071CD00 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95EFBB8A15B25BA30071CD00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95EFBB8B15B25BA30071CD00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95EFBB9315B25BA30071CD00 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95EFBB9415B25BA30071CD00 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95EFBB9915B25BA30071CD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		95EFBB9A15B25BA30071CD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95EFBB9C15B25BA30071CD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieLooperDemo/MovieLooperDemo-Prefix.pch";
+				INFOPLIST_FILE = "MovieLooperDemo/MovieLooperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95EFBB9D15B25BA30071CD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieLooperDemo/MovieLooperDemo-Prefix.pch";
+				INFOPLIST_FILE = "MovieLooperDemo/MovieLooperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95EFBB7715B25BA20071CD00 /* Build configuration list for PBXProject "MovieLooperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EFBB9915B25BA30071CD00 /* Debug */,
+				95EFBB9A15B25BA30071CD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EFBB9B15B25BA30071CD00 /* Build configuration list for PBXNativeTarget "MovieLooperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EFBB9C15B25BA30071CD00 /* Debug */,
+				95EFBB9D15B25BA30071CD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95EFBB7415B25BA20071CD00 /* Project object */;
+}
