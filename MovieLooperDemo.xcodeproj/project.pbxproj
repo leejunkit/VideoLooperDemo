@@ -15,6 +15,9 @@
 		95EFBB9215B25BA30071CD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFBB9115B25BA30071CD00 /* AppDelegate.m */; };
 		95EFBB9515B25BA30071CD00 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EFBB9315B25BA30071CD00 /* MainStoryboard.storyboard */; };
 		95EFBB9815B25BA30071CD00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFBB9715B25BA30071CD00 /* ViewController.m */; };
+		95EFBB9F15B25C3C0071CD00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFBB9E15B25C3C0071CD00 /* AVFoundation.framework */; };
+		95EFBBA415B2616E0071CD00 /* WD0165.mov in Resources */ = {isa = PBXBuildFile; fileRef = 95EFBBA315B2616E0071CD00 /* WD0165.mov */; };
+		95EFBBA615B264B00071CD00 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFBBA515B264B00071CD00 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		95EFBB8115B25BA30071CD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		95EFBB8315B25BA30071CD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95EFBB8515B25BA30071CD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		95EFBB8915B25BA30071CD00 /* MovieLooperDemo-Info.plist */ = {isa = PBXFileReference; path = "MovieLooperDemo-Info.plist"; sourceTree = "<group>"; };
+		95EFBB8915B25BA30071CD00 /* MovieLooperDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieLooperDemo-Info.plist"; sourceTree = "<group>"; };
 		95EFBB8B15B25BA30071CD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95EFBB8D15B25BA30071CD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		95EFBB8F15B25BA30071CD00 /* MovieLooperDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MovieLooperDemo-Prefix.pch"; sourceTree = "<group>"; };
-		95EFBB9015B25BA30071CD00 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		95EFBB8F15B25BA30071CD00 /* MovieLooperDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieLooperDemo-Prefix.pch"; sourceTree = "<group>"; };
+		95EFBB9015B25BA30071CD00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95EFBB9115B25BA30071CD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95EFBB9415B25BA30071CD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		95EFBB9615B25BA30071CD00 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		95EFBB9615B25BA30071CD00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		95EFBB9715B25BA30071CD00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95EFBB9E15B25C3C0071CD00 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95EFBBA315B2616E0071CD00 /* WD0165.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = WD0165.mov; sourceTree = "<group>"; };
+		95EFBBA515B264B00071CD00 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EFBBA615B264B00071CD00 /* CoreMedia.framework in Frameworks */,
+				95EFBB9F15B25C3C0071CD00 /* AVFoundation.framework in Frameworks */,
 				95EFBB8215B25BA30071CD00 /* UIKit.framework in Frameworks */,
 				95EFBB8415B25BA30071CD00 /* Foundation.framework in Frameworks */,
 				95EFBB8615B25BA30071CD00 /* CoreGraphics.framework in Frameworks */,
@@ -50,9 +58,12 @@
 		95EFBB7215B25BA20071CD00 = {
 			isa = PBXGroup;
 			children = (
+				95EFBBA515B264B00071CD00 /* CoreMedia.framework */,
+				95EFBB9E15B25C3C0071CD00 /* AVFoundation.framework */,
 				95EFBB8715B25BA30071CD00 /* MovieLooperDemo */,
 				95EFBB8015B25BA30071CD00 /* Frameworks */,
 				95EFBB7E15B25BA30071CD00 /* Products */,
+				95EFBBA215B25C540071CD00 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +107,15 @@
 				95EFBB8F15B25BA30071CD00 /* MovieLooperDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95EFBBA215B25C540071CD00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95EFBBA315B2616E0071CD00 /* WD0165.mov */,
+			);
+			name = Resources;
+			path = MovieLooperDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +171,7 @@
 			files = (
 				95EFBB8C15B25BA30071CD00 /* InfoPlist.strings in Resources */,
 				95EFBB9515B25BA30071CD00 /* MainStoryboard.storyboard in Resources */,
+				95EFBBA415B2616E0071CD00 /* WD0165.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +264,7 @@
 				GCC_PREFIX_HEADER = "MovieLooperDemo/MovieLooperDemo-Prefix.pch";
 				INFOPLIST_FILE = "MovieLooperDemo/MovieLooperDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,6 +276,7 @@
 				GCC_PREFIX_HEADER = "MovieLooperDemo/MovieLooperDemo-Prefix.pch";
 				INFOPLIST_FILE = "MovieLooperDemo/MovieLooperDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
